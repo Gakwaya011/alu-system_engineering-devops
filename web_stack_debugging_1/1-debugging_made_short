@@ -1,7 +1,5 @@
 #!/usr/bin/env bash
-# make Me Lough bingo
-sudo systemctl start nginx
-sudo service nginx start
 sudo rm /etc/nginx/sites-enabled/default
 sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo service nginx stop
+
